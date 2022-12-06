@@ -1,6 +1,6 @@
 FROM caddy:2-alpine AS builder
 
-FROM php:8.1-fpm-alpine
+FROM php:7.3-fpm-alpine
 
 LABEL maintainer="cx@tinyserve.com"
 
