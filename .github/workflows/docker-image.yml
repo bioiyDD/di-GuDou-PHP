@@ -10,8 +10,7 @@ jobs:
 
  
  build:
-
-    push_to_registry:  # job的名字
+ 
     name: Push Docker image to Docker Hub 
     runs-on: ubuntu-latest
 
